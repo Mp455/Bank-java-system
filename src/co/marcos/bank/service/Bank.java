@@ -10,7 +10,6 @@ public class Bank {
     private final List<Account> accounts;
     private int lastAccount = 1;
 
-
     public Bank(String ag){
         this.ag = ag;
         this.accounts = new ArrayList<>();
